@@ -1,0 +1,47 @@
+.cards {
+    display: flex;
+}
+
+.card1 {
+    color:white;
+    background-color: #2e8540;
+    border: 1px solid lightslategray;
+    width: 195px
+}
+
+table, tr, td {
+    color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  table {
+      width: 175px;
+      margin: 15px;
+  }
+td {
+    padding: 8px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+tbody {
+    background-color: white;
+}
+
+.name{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.role {
+    padding-left: 10px;
+    margin-top: 8px;
+
+}
