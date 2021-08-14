@@ -22,12 +22,12 @@ body {
     border: 1px solid lightslategray;
     width: 195px;
     margin: 10px;
-
+    box-shadow: 5px 5px 5px grey;
 }
 
 table, tr, td {
     color: black;
-    border: 1px solid black;
+    border: 2px solid whitesmoke;
     border-collapse: collapse;
   }
 
