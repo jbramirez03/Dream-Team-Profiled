@@ -24,7 +24,7 @@ describe('Employee class', () => {
 
     });
 
-    // Test on the getName method ensuring it returns the classes name property.
+    // Test on the getName method ensuring it returns the class's name property.
     describe("getName", () => {
 
         it("should return the name property inside the object", () => {
@@ -35,7 +35,7 @@ describe('Employee class', () => {
 
     });
     
-    // Test on the getId method ensuring it returns the classes Id property.
+    // Test on the getId method ensuring it returns the class's Id property.
     describe("getId", () => {
 
         it("should return the id property inside the object", () => {
@@ -46,7 +46,7 @@ describe('Employee class', () => {
 
     });
 
-    // Test on the getEmail method ensuring it returns the classes email property.
+    // Test on the getEmail method ensuring it returns the class's email property.
     describe("getEmail", () => {
 
         it("should return the email property inside the object", () => {

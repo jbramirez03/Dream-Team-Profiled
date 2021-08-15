@@ -1,5 +1,7 @@
+// Import the engineer class in order to run tests on it.
 const Engineer = require("../lib/Engineer");
 
+// First test on the initialization of the class and making sure all the class's propertys exist.
 describe("Engineer class", () => {
 
     describe('initialization', () => {
@@ -27,6 +29,7 @@ describe("Engineer class", () => {
         });
     });
 
+    // Test on the getGithub method and making sure it returns the github property in the class.
     describe("getGithub", () => {
 
         it("should return the github property inside the object", () => {
@@ -37,6 +40,7 @@ describe("Engineer class", () => {
 
     });
 
+    // Test on the getRole method and making sure it returns the string 'Engineer'.
     describe("getRole", () => {
 
         it("should return the role of the team member", () => {
