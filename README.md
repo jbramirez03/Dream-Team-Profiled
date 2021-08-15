@@ -1,4 +1,4 @@
-<h1 align="center">Marvel Api</h1> 
+<h1 align="center">Dream-Team-Profiled</h1> 
   
 [LinkedIn]: https://www.linkedin.com/in/jason-barrera-ramirez-b2a473204/
 ![license-badge](https://img.shields.io/badge/License-MIT-blueviolet)
