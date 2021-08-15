@@ -1,5 +1,7 @@
+// Import employee class in order ot run tests on the class.
 const Employee = require('../lib/Employee');
 
+// First test on initialization of employee class and making sure all properties of the class exist when created.
 describe('Employee class', () => {
     describe('Initialization', () => {
 
@@ -22,6 +24,7 @@ describe('Employee class', () => {
 
     });
 
+    // Test on the getName method ensuring it returns the classes name property.
     describe("getName", () => {
 
         it("should return the name property inside the object", () => {
@@ -32,6 +35,7 @@ describe('Employee class', () => {
 
     });
     
+    // Test on the getId method ensuring it returns the classes Id property.
     describe("getId", () => {
 
         it("should return the id property inside the object", () => {
@@ -42,6 +46,7 @@ describe('Employee class', () => {
 
     });
 
+    // Test on the getEmail method ensuring it returns the classes email property.
     describe("getEmail", () => {
 
         it("should return the email property inside the object", () => {
@@ -52,6 +57,7 @@ describe('Employee class', () => {
 
     });
 
+    // Test on the getRole method ensuring it returns the string 'Employee'.
     describe("getRole", () => {
 
         it("should return the role of the team member", () => {
