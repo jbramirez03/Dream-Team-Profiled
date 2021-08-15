@@ -1,5 +1,7 @@
+// Import intern class in order to run tests on it.
 const Intern = require('../lib/Intern');
 
+// First test making sure all of the properties of the class exist once a new class is created.
 describe("Intern class", () => {
 
     describe('initialization', () => {
@@ -27,6 +29,7 @@ describe("Intern class", () => {
         });
     });
 
+    // Test on getSchool method that checks if it returns the school property in the class.
     describe("getSchool", () => {
 
         it("should return the github property inside the object", () => {
@@ -37,6 +40,7 @@ describe("Intern class", () => {
 
     });
 
+    // Test on getRole method that checks if it returns the string 'Intern'.
     describe("getRole", () => {
 
         it("should return the role of the team member", () => {
